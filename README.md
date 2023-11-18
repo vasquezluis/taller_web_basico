@@ -5,59 +5,60 @@ Este repositorio contiene las presentaciones de PowerPoint y código del taller 
 
 
 # Tallerista
-🧑 Luis Antonio Vásquez Ti
-🚀 Programador Web
-Correo 💼 lvasquez0127@gmail.com
-Discord 📝 vasquez_luis
-Web 🌐 https://vasquezluis.netlify.app
+- 🧑 Luis Antonio Vásquez Tiu
+- 🚀 Programador Web
+- Correo 💼 lvasquez0127@gmail.com
+- Discord 📝 vasquez_luis
+- Web 🌐 https://vasquezluis.netlify.app
+
 
 # Temas del taller
 
 **Semana #1** HTML (Fundamentos)
 - Clase 1
-	> Introducción a la web y conceptos básicos.
-	> Estructura básica de un documento HTML.
-	> Etiquetas, elementos y atributos HTML.
+	1. Introducción a la web y conceptos básicos.
+	2. Estructura básica de un documento HTML.
+	3. Etiquetas, elementos y atributos HTML.
 - Clase 2
-	> Listas y enlaces.
-	> Imágenes y multimedia.
-	> Formularios básicos.
+	1. Listas y enlaces.
+	2. Imágenes y multimedia.
+	3. Formularios básicos.
 - Clase 3
-	> Semántica HTML (encabezados, párrafos, citas).
-	> Trabajo práctico: Crear una página web básica.
+	1. Semántica HTML (encabezados, párrafos, citas).
+	2. Trabajo práctico: Crear una página web básica.
 	
 	
 **Semana #2** CSS (Estilos)
 - Clase 1
-	> Introducción a CSS y su sintaxis.
-	> Selectores y propiedades básicas.
+	1. Introducción a CSS y su sintaxis.
+	2. Selectores y propiedades básicas.
 - Clase 2
-	> Box model (margen, borde, relleno).
-	> Colores y unidades de medida.
+	1. Box model (margen, borde, relleno).
+	2. Colores y unidades de medida.
 - Clase 3
-	> Diseño de diseño: flexbox y grid.
-	> Transiciones y animaciones CSS.
-	> Trabajo práctico: Estilizar página web.
+	1. Diseño de diseño: flexbox y grid.
+	2. Transiciones y animaciones CSS.
+	3. Trabajo práctico: Estilizar página web.
 
 
 **Semana #3** JavaScript (Interactividad)
 - Clase 1
-	> Introducción a JavaScript.
-	> Variables, tipos de datos y operadores básicos.
+	1. Introducción a JavaScript.
+	2. Variables, tipos de datos y operadores básicos.
 - Clase 2
-	> Control de flujo: if, else, switch.
-	> Arrays y bucles (for, while).
+	1. Control de flujo: if, else, switch.
+	2. Arrays y bucles (for, while).
 - Clase 3
-	> Funciones y su importancia.
-	> Manipulación del DOM (Document Object Model).
-	> Trabajo práctico: Añadir interactividad a la página web.
+	1. Funciones y su importancia.
+	2. Manipulación del DOM (Document Object Model).
+	3. Trabajo práctico: Añadir interactividad a la página web.
 
 
 **Semana #4** Astro (Framework)
 - Clase 1, 2 y 3
-	> ¿Qué es Astro Framework?
-	> Principales características y ventajas.
-	> Configuración básica y creación de una aplicación simple.
+	1. ¿Qué es Astro Framework?
+	2. Principales características y ventajas.
+	3. Configuración básica y creación de una aplicación simple.
 
 ## Proyecto del taller
 
