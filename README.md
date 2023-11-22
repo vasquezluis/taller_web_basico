@@ -10,7 +10,7 @@ Este taller tiene como objetivo proporcionar a los estudiantes una introducción
 
 <img alt="uvg altiplano" src="https://res.cloudinary.com/dh01roref/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1700368389/varios/image2_gyunko.jpg?_s=public-apps" width="200">
 
-<span style="font-size: 2em;">🤝</span>
+<span style="font-size: 3em;">🤝</span>
 
 <img alt="empresa desconocida" src="https://res.cloudinary.com/dh01roref/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1700368374/varios/logo005_eau3bn.jpg?_s=public-apps" width="200">
 
@@ -27,11 +27,11 @@ Este taller es posible gracias a la colaboración entre **[Entidad no definida](
 - **Correo:** 💼 lvasquez0127@gmail.com
 - **Discord:** 📝 vasquez_luis
 - **Sitio Web:** 🌐 [https://vasquezluis.netlify.app](https://vasquezluis.netlify.app)
-- **Fechas del taller:** 🗓 24 de noviembre - 15 de diciembre
+- **Fechas del taller:** 🗓 24 de noviembre - 15 de diciembre (Lunes, Miércoles y Viernes)
 
 ## Información Adicional
 
-- **Requisitos:** No se requieren conocimientos previos de programación.
+- **Requisitos:** Graduados de computación, electrónica mecatrónica, carrera afín o jóvenes con conocimiento básico del tema.
 - **Material:** El taller requiere tener a disposición una computadora, Visual Studio Code e internet para mayor comodidad de los estudiantes.
 
 ## Temario
@@ -49,7 +49,10 @@ Este taller es posible gracias a la colaboración entre **[Entidad no definida](
 
 - **HTML Avanzado (1.5 hrs):**
   - Uso de etiquetas para organizar contenido.
-  - Atributos HTML.
+  - Multimedia
+  - Formularios
+  - Etiquetas interesantes
+  - Semántica HTML
   - Práctica: Ejercicio práctico de creación de una estructura HTML más compleja.
 
 ### Clase 3
@@ -124,7 +127,7 @@ Durante la realización del presente taller, los estudiantes realizarán un proy
 | Estudios | Sección de estudios previos |
 | Footer | Pie de página de la página web, links, logo |
 
-## Recursos Adicionales
+## Recursos para seguir aprendiendo
 
 - **HTML y CSS:**
 
@@ -136,6 +139,7 @@ Durante la realización del presente taller, los estudiantes realizarán un proy
   - [Mozilla Developer Network (MDN) - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
 - **Frameworks Modernos de JavaScript:**
+	- [Astro](https://astro.build/)
   - [React](https://reactjs.org/)
   - [Vue.js](https://vuejs.org/)
   - [Angular](https://angular.io/)
