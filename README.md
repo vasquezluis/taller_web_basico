@@ -8,7 +8,7 @@ Este taller tiene como objetivo proporcionar a los estudiantes una introducción
 
 <div align="center">
 
-<img alt="uvg altiplano" src="https://res.cloudinary.com/dh01roref/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1700368389/varios/image2_gyunko.jpg?_s=public-apps" width="200">
+<img alt="uvg altiplano" src="https://res.cloudinary.com/dh01roref/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1700856604/varios/cosami_qhzjoi.jpg?_s=public-apps" width="200">
 
 <span style="font-size: 3em;">🤝</span>
 
@@ -18,7 +18,7 @@ Este taller tiene como objetivo proporcionar a los estudiantes una introducción
 
 ## Colaboración entre Entidades
 
-Este taller es posible gracias a la colaboración entre **[Entidad no definida](https://altiplano.uvg.edu.gt/)** y la **[Univerdidad del Valle de Guatemala, campus Altiplano](https://altiplano.uvg.edu.gt/)**. La empresa aporta su experiencia en la industria y recursos educativos, mientras que la universidad proporciona apoyo logístico y facilita el acceso a estudiantes motivados.
+Este taller es posible gracias a la colaboración entre **[Cosami](https://cosami.com.gt/)** y la **[Univerdidad del Valle de Guatemala, campus Altiplano](https://altiplano.uvg.edu.gt/)**. Cosami aporta su experiencia en la industria y recursos educativos, mientras que la universidad proporciona apoyo logístico y facilita el acceso a estudiantes motivados.
 
 ## Información General
 
@@ -115,13 +115,14 @@ Este taller es posible gracias a la colaboración entre **[Entidad no definida](
 
 ## Proyecto del Taller
 
-Durante la realización del presente taller, los estudiantes realizarán un proyecto el cual consistirá en un portafolio el cual iniciará con los fundamentos de HTML, CSS y Javascript, para luego ser migrado al framework Astro.
+Durante la realización del presente taller, los estudiantes realizarán un proyecto el cual ellos mismo elegirán, o podrán optar en seguir el ejemplo que el tallerista hará, el cual consiste en un portafolio web. Este proyecto iniciará con los fundamentos de HTML, CSS y Javascript, para luego ser migrado al framework Astro.
 
-**Elementos del Proyecto:**
+**Elementos del Proyecto propuesto:**
 | Elemento | Descripción |
 |-------------|-----------------------------------------------------------|
 | Header | Encabezado de la página, links y logo/nombre |
 | Información | Sección de información del estudiante, fotografía, nombre |
+| Portafolio | Sección de trabajos realizados |
 | Experiencia | Sección de experiencia laboral previa |
 | Habilidades | Sección de habilidades, programación, informática |
 | Estudios | Sección de estudios previos |
@@ -139,7 +140,7 @@ Durante la realización del presente taller, los estudiantes realizarán un proy
   - [Mozilla Developer Network (MDN) - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
 - **Frameworks Modernos de JavaScript:**
-	- [Astro](https://astro.build/)
+  - [Astro](https://astro.build/)
   - [React](https://reactjs.org/)
   - [Vue.js](https://vuejs.org/)
   - [Angular](https://angular.io/)
