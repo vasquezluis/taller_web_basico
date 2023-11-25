@@ -6,16 +6,12 @@
     <title>Clase 02</title>
   </head>
   <body>
-    <!-- ORGANIZACION -->
-    <!-- Funciona como un separador -->
     <div>
       <div>
-        <!-- Cualquier contenido que necesitemos -->
         <h1>Esto es un h1</h1>
         <p>Esto es un parrafo</p>
       </div>
 
-      <!-- seccion de información -->
       <div>
         <div>
           <p>Dirección: Totonicapán</p>
@@ -27,7 +23,6 @@
         </div>
       </div>
 
-      <!-- Organizar texto con span -->
       <div>
         <p style="color: darkcyan">
           Esto es un texto
@@ -37,9 +32,7 @@
       </div>
     </div>
 
-    <!-- MULTIMEDIA -->
     <div>
-      <!-- imagenes -->
       <img
         style="width: 100%; aspect-ratio: 1200/630"
         loading="lazy"
@@ -47,8 +40,6 @@
         alt="imagen de prueba"
       />
 
-      <!-- videos -->
-      <!-- controls -->
       <video
         autoplay
         muted
@@ -56,32 +47,24 @@
         src="https://filesamples.com/samples/video/mp4/sample_960x400_ocean_with_audio.mp4"
       ></video>
 
-      <!-- audio -->
       <audio
         controls
         src="https://download.samplelib.com/mp3/sample-15s.mp3"
       ></audio>
     </div>
 
-    <!-- FORMULARIOS -->
     <div>
       <h2>Formulario de contacto</h2>
 
-      <!-- etiqueta para formularios -->
-      <!-- method para saber qué tipo de verbo http usar -->
-      <!-- action para la accion que va a realizar cuando se da Enter o submit -->
       <form method="POST" action="">
-        <!-- agrupar elementos con fieldset -->
         <fieldset>
           <legend>Informacion personal</legend>
 
-          <!-- grupo de etiquetas -->
           <div>
             <label for="nombre"> Nombre </label>
             <input type="text" name="nombre" id="nombre" required />
           </div>
 
-          <!-- email -->
           <div>
             <label for="correo"> Email </label>
             <input type="email" name="correo" id="correo" required />
@@ -89,7 +72,6 @@
         </fieldset>
 
         <fieldset>
-          <!-- Tipo tel, para telefonos -->
           <div>
             <label for="telefono">Telefono</label>
             <input
@@ -102,8 +84,6 @@
             />
           </div>
 
-          <!-- Tipo textarea -->
-          <!-- Para cuando se necesite mucho texto -->
           <div>
             <label for="mensaje">Mensaje</label>
             <textarea
@@ -115,7 +95,6 @@
             ></textarea>
           </div>
 
-          <!-- Tipo fecha -->
           <div>
             <label for="fecha">Fecha</label>
             <input type="date" name="fecha" id="fecha" />
@@ -123,7 +102,6 @@
         </fieldset>
 
         <fieldset>
-          <!-- SELECT -->
           <div>
             <label for="pais">Pais</label>
             <select name="pais" id="pais" required>
@@ -136,13 +114,11 @@
             </select>
           </div>
 
-          <!-- CHECKBOX -->
           <div>
             <label for="acepto">Acepto los terminos y condiciones</label>
             <input type="checkbox" name="acepto" id="acepto" required />
           </div>
 
-          <!-- DATALIST -->
           <div>
             <label for="busqueda">Busqueda de animales</label>
             <input
@@ -165,15 +141,11 @@
           </div>
         </fieldset>
 
-        <!-- SUBMIT -->
         <input type="submit" value="Enviar contacto" />
       </form>
     </div>
 
-    <!-- ETIQUETAS INTERESANTES -->
     <div>
-      <!-- details -->
-      <!-- Pequeño menú expandible -->
       <div>
         <details open>
           <summary>Esto es un summary</summary>
@@ -209,8 +181,6 @@
         </details>
       </div>
 
-      <!-- iframe -->
-      <!-- Agregar recurso externo a la página -->
       <div>
         <iframe
           width="560"
@@ -230,9 +200,7 @@
         ></iframe>
       </div>
 
-      <!-- dialog -->
       <div>
-        <!-- Para pop-ups o modales -->
         <dialog id="dialog">
           <h2>Modal abierta! 😊</h2>
           <p>༼ つ ◕_◕ ༽つ</p>
@@ -251,12 +219,8 @@
       </div>
     </div>
 
-    <!-- SEMANTICA -->
-    <!-- Escabezado de la página -->
     <header>
-      <h2>
-        contenido del header
-      </h2>
+      <h2>contenido del header</h2>
     </header>
 
     <nav>
@@ -273,7 +237,6 @@
       </ul>
     </nav>
 
-    <!-- Sección principal de la página -->
     <main>
       <section>
         <h2>Esto es un h2</h2>
@@ -287,7 +250,6 @@
       </section>
     </main>
 
-    <!-- Parte lateral -->
     <aside>
       <section>
         <article>
@@ -298,11 +260,9 @@
       </section>
     </aside>
 
-    <!-- Pie de página -->
     <footer>
       Copyrigth &copy; 2023 - Portafolio de vasquezluis
 
-      <!-- enlaces especiales -->
       <a href="mailto:lvasquez0127@gmail.com">Enviame un correo</a>
       <a href="tel:+50230889567">Llamar por telefono</a>
       <a href="whatsapp://send?text=Hola Luis">Contactar por whatsapp</a>
