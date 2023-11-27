@@ -1,0 +1,40 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Dos columnas que se adaptan automáticamente con un ancho mínimo de 300px cada una */
+  gap: 20px; /* Espacio entre las cajas */
+  max-width: 800px; /* Ancho máximo del contenedor para evitar que crezca demasiado en pantallas grandes */
+  background: skyblue;
+  margin: 20px; /* Márgenes exterior del contenedor */
+  box-sizing: border-box; /* Evita que el borde y el relleno afecten el tamaño total del contenedor */
+  padding: 10px;
+}
+
+.box {
+  padding: 20px; /* Relleno interior de las cajas */
+  background-color: #3498db; /* Color de fondo de las cajas */
+  color: #fff; /* Color del texto en las cajas */
+  text-align: center; /* Centra el texto horizontalmente en las cajas */
+  border-radius: 8px; /* Bordes redondeados de las cajas */
+  box-sizing: border-box; /* Evita que el borde y el relleno afecten el tamaño total de las cajas */
+}
+
+/* Estilos responsive para pantallas pequeñas */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas más pequeñas */
+  }
+}
