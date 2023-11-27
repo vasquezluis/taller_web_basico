@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estilos etiqueta style</title>
+    <!-- La estiqueta style puede ser configurada en cualquier parte del documento -->
+    <!-- pero es mejor que sea en el head del documento -->
+    <style>
+      h1 {
+        font-size: 24px;
+      }
+
+      body > p {
+        font-style: 12px;
+        color: blue;
+      }
+
+      main {
+        background: aquamarine;
+        padding: 10px;
+      }
+
+      main section {
+        background: salmon;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      section img {
+        width: 50%;
+        aspect-ratio: "3840/2160";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Este es el titulo de la pagina</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nesciunt
+      facere animi unde recusandae delectus provident ut sapiente veniam
+      mollitia nemo temporibus perferendis autem, reiciendis soluta voluptas,
+      fugiat nihil sequi?
+    </p>
+
+    <main>
+      <section>
+        <img src="./public/wallpaper.jpg" alt="Imagen de wallpaper" />
+      </section>
+
+      <section>
+        <header>
+          <ul>
+            <li>Item #1</li>
+            <li>Item #2</li>
+            <li>Item #3</li>
+          </ul>
+        </header>
+
+        <section>
+          <h2>Titulo de la seccion</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Voluptatibus quia minus cum. Illo dolore incidunt sit, odit dolores
+            omnis at fugiat ad quae, dignissimos unde laborum cupiditate
+            praesentium atque assumenda?
+          </p>
+        </section>
+
+        <footer>Pie de la seccion</footer>
+      </section>
+    </main>
+  </body>
+</html>
