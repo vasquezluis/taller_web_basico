@@ -1,140 +1,125 @@
-/* estilizar la etiqueta body */
 body {
-  padding: 15px; /* Añadir relleno interno de 15px */
-  margin: 0; /* Eliminar márgenes externos */
-  background: gray; /* Establecer color de fondo gris */
-  font-family: "Arial", sans-serif; /* Establecer la fuente del texto */
+  padding: 15px;
+  margin: 0;
+  background: gray;
+  font-family: "Arial", sans-serif;
 }
 
-/* estilizar header */
 header {
-  background: goldenrod; /* Establecer color de fondo dorado */
-  border-radius: 15px; /* Añadir bordes redondeados de 15px */
-  padding: 10px; /* Añadir relleno interno de 10px */
-  margin: 10px 0; /* Establecer márgenes superior e inferior de 10px */
-  border: 2px solid blue; /* Establecer borde sólido azul de 2px */
+  background: goldenrod;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid blue;
 }
 
 nav ul {
-  list-style-type: none; /* Eliminar viñetas de la lista */
-  overflow: hidden; /* Ocultar desbordamiento de contenido */
+  list-style-type: none;
+  overflow: hidden;
 }
 
 ul li {
-  display: inline-block; /* Mostrar elementos de lista en línea */
+  display: inline-block;
 }
 
 li a {
-  display: block; /* Hacer que los enlaces ocupen el ancho completo del contenedor */
-  padding: 14px 16px; /* Añadir relleno interno de 14px arriba/abajo y 16px izquierda/derecha */
-  text-decoration: none; /* Eliminar subrayado de enlaces */
-  font-weight: bold; /* Establecer peso de la fuente en negrita */
-  border-radius: 5px; /* Añadir bordes redondeados de 5px */
-  color: white; /* Establecer color de texto blanco */
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
 }
 
 li a:hover {
-  color: purple; /* Cambiar color del texto a morado al pasar el ratón sobre el enlace */
+  color: purple;
 }
 
-/* main */
 main {
-  background: rosybrown; /* Establecer color de fondo marrón rosáceo */
-  border-radius: 15px; /* Añadir bordes redondeados de 15px */
-  padding: 25px; /* Añadir relleno interno de 25px */
-  margin: 10px 0; /* Establecer márgenes superior e inferior de 10px */
-  display: flex; /* Utilizar un contenedor flexible */
-  flex-direction: column; /* Establecer la dirección de los elementos secundarios en columna */
-  justify-content: center; /* Centrar verticalmente los elementos secundarios */
-  align-items: center; /* Centrar horizontalmente los elementos secundarios */
-  border: 2px solid greenyellow; /* Establecer borde sólido verde-amarillo de 2px */
+  background: rosybrown;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid greenyellow;
 }
 
-/* Estilizar el título h1 dentro de main */
 main h1 {
-  color: #ccc; /* Establece el color del texto en gris claro */
-  font-weight: bold; /* Establece el peso de la fuente en negrita */
-  font-size: 24px; /* Establece el tamaño de la fuente en 24px */
+  color: #ccc;
+  font-weight: bold;
+  font-size: 24px;
 }
 
-/* Estilizar los párrafos dentro de section */
 main section p {
-  color: pink; /* Establece el color del texto en rosa */
-  font-weight: lighter; /* Establece el peso de la fuente como más ligero */
-  font-size: 16px; /* Establece el tamaño de la fuente en 16px */
-  text-align: center; /* Alinea el texto al centro */
+  color: pink;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
 }
 
-/* Estilizar las secciones */
 section {
-  padding: 10px; /* Añade relleno interior de 10px */
-  margin: 15px 0; /* Establece los márgenes superior e inferior en 15px y 0px para izquierda y derecha */
-  border-radius: 15px; /* Añade bordes redondeados de 15px */
-  background: darkcyan; /* Color de fondo cian oscuro */
-  display: flex; /* Utiliza el modelo de caja flexible */
-  flex-direction: column; /* Organiza los elementos en columna */
-  justify-content: center; /* Centra verticalmente los elementos */
-  align-items: center; /* Centra horizontalmente los elementos */
-  margin: 15px 0; /* Establece los márgenes superior e inferior en 15px y 0px para izquierda y derecha */
-  width: 100%; /* Establece el ancho del contenedor al 100% */
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 15px;
+  background: darkcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-/* Estilizar las imágenes dentro de la sección principal */
 main section img {
-  width: 50%; /* Establece el ancho de la imagen al 50% del contenedor */
-  aspect-ratio: "3840/2160"; /* Define la relación de aspecto de la imagen (3840x2160) */
-  margin: 15px 0; /* Establece los márgenes superior e inferior en 15px y 0px para izquierda y derecha */
+  width: 50%;
+  aspect-ratio: "3840/2160";
+  margin: 15px 0;
 }
 
-/* Estilizar el pie de página */
 footer {
-  background: darkgrey; /* Establece el color de fondo gris oscuro */
-  border-radius: 15px; /* Añade bordes redondeados de 15px */
-  padding: 10px; /* Añade relleno interior de 10px */
-  margin: 10px 0; /* Establece los márgenes superior e inferior en 10px y 0px para izquierda y derecha */
-  text-align: center; /* Alinea el texto al centro */
+  background: darkgrey;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
 }
 
-/* Estilizar los enlaces de redes sociales con ID */
 li #a_facebook {
-  background: blue; /* Establece el fondo azul para el enlace de Facebook */
+  background: blue;
 }
 
 li #a_twitter {
-  background: skyblue; /* Establece el fondo celeste para el enlace de Twitter */
+  background: skyblue;
 }
 
 li #a_linkedin {
-  background: blue; /* Establece el fondo azul para el enlace de LinkedIn */
+  background: blue;
 }
 
 li #a_youtube {
-  background: red; /* Establece el fondo rojo para el enlace de YouTube */
+  background: red;
 }
 
-/* Estilizar la primera imagen con ID img_1 */
 #img_1 {
-  border-radius: 10px; /* Añade bordes redondeados de 10px a la primera imagen */
+  border-radius: 10px;
 }
+
 #img_1:hover {
-  transform: scale(
-    0.7
-  ); /* Reduce la escala de la imagen al 70% al pasar el cursor sobre ella */
+  transform: scale(0.7);
 }
 
-/* Estilizar la segunda imagen con ID img_2 */
 #img_2 {
-  border-radius: 40px; /* Añade bordes redondeados de 40px a la segunda imagen */
+  border-radius: 40px;
 }
 
-/* Estilizar la tercera imagen con ID img_3 */
 #img_3 {
-  border-radius: 80px; /* Añade bordes redondeados de 80px a la tercera imagen */
+  border-radius: 80px;
 }
 
-/* Estilizar los párrafos con la clase parrafo */
 .parrafo {
-  font-size: 24px; /* Establece el tamaño de la fuente en 24px */
-  font-weight: bolder; /* Establece el peso de la fuente en negrita */
-  text-decoration: underline; /* Subraya el texto */
+  font-size: 24px;
+  font-weight: bolder;
+  text-decoration: underline;
 }
