@@ -50,7 +50,8 @@ console.log(persona[simbolo1]);
 
 // * 1. Null -> representa la ausencia intencional de cualquier valor, un valor nulo o «vacío».
 // * 2. Object -> representa una colección de datos definidos y entidades más complejas.
-// * 3. Function -> es una forma abreviada para funciones, aunque cada constructor de funciones se deriva del constructor Object. Son objetos con la capacidad de ser ejecutables.
+// * 3. Array -> representa una colleción de datos ordenados
+// * 4. Function -> es una forma abreviada para funciones, aunque cada constructor de funciones se deriva del constructor Object. Son objetos con la capacidad de ser ejecutables.
 
 // null
 let valorNulo = null;
