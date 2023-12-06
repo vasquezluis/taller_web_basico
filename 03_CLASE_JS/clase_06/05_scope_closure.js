@@ -13,11 +13,8 @@ function exterior() {
   return interior;
 }
 
-// exterior() tiene acceso a interior(), pero tambien lo tendria si
-// interior fuera una funcion externa tambien
 const funcionClosure = exterior();
 funcionClosure();
 
-
-// 👉 recursos para logica
+// 👉 recursos para practicar logica de programación con JS
 // https://adventjs.dev

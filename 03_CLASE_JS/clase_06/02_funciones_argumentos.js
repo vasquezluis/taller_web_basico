@@ -7,14 +7,17 @@
 function sumar(a, b) {
   return a + b;
 }
-// Llamada a la función con argumentos
 const resultado = sumar(5, 3);
-console.log('El resultado es: ', resultado);
+console.log("El resultado es: ", resultado);
 
 // -> parametros predefinidos
-// podemos re ordenar los parametros
-function ImprimirCartaVideojuegos(nombre, juego = 'Fornite', horasJugadas, juegoFinalizado = false){
-  if(!nombre || ! horasJugadas) return 'Por favor rellena todos los campos ❌'
+function ImprimirCartaVideojuegos(
+  nombre,
+  juego = "Fornite",
+  horasJugadas,
+  juegoFinalizado = false
+) {
+  if (!nombre || !horasJugadas) return "Por favor rellena todos los campos ❌";
 
   return `
     Esta es una carta de videojuegos   
@@ -23,12 +26,16 @@ function ImprimirCartaVideojuegos(nombre, juego = 'Fornite', horasJugadas, juego
     Su juego favorito es: ${juego}
     Ha jugado ${horasJugadas} horas
     
-    ${juegoFinalizado ? 'Ha finalizado el juego' : 'No ha finalizado el juego'}
-  `
+    ${juegoFinalizado ? "Ha finalizado el juego" : "No ha finalizado el juego"}
+  `;
 }
 
-// invocar a la función
-const resultadoVideoJuego = ImprimirCartaVideojuegos("Luis Vasquez", "Hollow Knight", 40, false)
-const resultadoVideoJuego2 = ImprimirCartaVideojuegos("Luis Vasquez", 40)
-console.log(resultadoVideoJuego)
-console.log(resultadoVideoJuego2)
+const resultadoVideoJuego = ImprimirCartaVideojuegos(
+  "Luis Vasquez",
+  "Hollow Knight",
+  40,
+  false
+);
+const resultadoVideoJuego2 = ImprimirCartaVideojuegos("Luis Vasquez", 40);
+console.log(resultadoVideoJuego);
+console.log(resultadoVideoJuego2);

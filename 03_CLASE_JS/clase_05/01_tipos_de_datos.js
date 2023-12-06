@@ -9,37 +9,29 @@
 // * 5. BigInt -> representa valores numéricos que son demasiado grandes para ser representados por el tipo de dato number.
 // * 6. Symbol -> es un valor primitivo único e inmutable.
 
-// undefined
 const undef = undefined;
 console.log(undef);
 
-// booleano
 const isFinished = true;
 console.log(isFinished);
 
-// number
 const day = 4;
 const month = 12;
 const year = 2023;
 console.log(day, month, year);
 
-// string
 const saludo =
   "Hola, este es un saludo desde el taller de programación web básico";
 console.log(saludo);
 
-// bigInt
 const numeroNormal = 9007199254740991;
 const numeroGrande = BigInt("9007199254740991000000");
 console.log(numeroNormal);
 console.log(numeroGrande);
 
-// Símbolos
 const simbolo1 = Symbol("descripcion");
 const simbolo2 = Symbol("descripcion");
-// Comprobación de igualdad
 console.log(simbolo1 === simbolo2);
-// Uso de símbolos como propiedades de objetos
 const persona = {
   nombre: "Juan",
   [simbolo1]: "Información privada",
@@ -52,11 +44,9 @@ console.log(persona[simbolo1]);
 // * 2. Object -> representa una colección de datos definidos y entidades más complejas.
 // * 3. Function -> es una forma abreviada para funciones, aunque cada constructor de funciones se deriva del constructor Object. Son objetos con la capacidad de ser ejecutables.
 
-// null
 let valorNulo = null;
 console.log(valorNulo);
 
-// object
 const persona2 = {
   nombre: "Maria",
   edad: 30,
@@ -64,11 +54,9 @@ const persona2 = {
 };
 console.log(persona2);
 
-// array
 const animales = ['perro', 'gato', 'pajaro', 'elefante', 'tigre', 'loro']
 console.log(animales[0])
 
-// function
 function saludar(nombre) {
   console.log("¡Hola, " + nombre + "!");
 }
