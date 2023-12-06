@@ -1,0 +1,184 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+
+/* -----------------> CONTAINERS <----------------- */
+.main-container {
+  width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px; /* Puedes ajustar este valor según tus necesidades */
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* -----------------> HEADER <----------------- */
+header .header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo-container {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #3490dc, #38b2ac);
+  background-clip: text;
+  font-size: 1.25rem; /* Equivalente a text-xl en Tailwind */
+  font-weight: bold;
+  color: transparent;
+}
+.logo-container svg {
+  margin-right: 0.25rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  stroke: #38b2ac;
+}
+.mobile-icon-container button {
+  color: #4a5568;
+  outline: none;
+}
+.mobile-icon-container svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.header-container .mobile-links-menu {
+  display: none; /* Ocultar en pantallas pequeñas (sm) */
+  background-color: #1a202c;
+  justify-content: flex-end;
+  position: absolute;
+  top: 20px;
+  right: 0.75rem;
+  margin-top: 0;
+  min-width: 170px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.375rem;
+  z-index: 10;
+}
+.mobile-links-menu ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+.mobile-links-menu ul a {
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: end;
+}
+.mobile-links-menu ul a:hover {
+  color: #ffffff;
+  background-color: #4a5568;
+}
+header .desktop-links {
+  display: none; /* Ocultar en pantallas pequeñas (sm) */
+}
+
+/* -----------------> MAIN <----------------- */
+main .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container .description-container h1 {
+  font-size: 1.875rem; /* Equivalente a text-3xl en Tailwind */
+  font-weight: bold;
+}
+.main-container .description-container p {
+  margin-top: 1.5rem; /* Equivalente a mt-6 en Tailwind */
+  font-size: 1.25rem; /* Equivalente a text-xl en Tailwind */
+  line-height: 1.5rem; /* Equivalente a leading-9 en Tailwind */
+}
+.main-container .social-container {
+  display: flex;
+  margin-top: 0.75rem; /* Equivalente a mt-3 en Tailwind */
+  gap: 0.25rem; /* Equivalente a gap-1 en Tailwind */
+}
+.social-container a img {
+  height: 3rem; /* Equivalente a h-12 en Tailwind */
+  width: 3rem; /* Equivalente a w-12 en Tailwind */
+  transition: transform 0.3s ease-in-out;
+}
+.social-container a img:hover {
+  transform: translateY(
+    0.25rem
+  ); /* Equivalente a hover:translate-y-1 en Tailwind */
+}
+.main-container .image-container {
+  flex-shrink: 0;
+}
+.image-container img {
+  height: 20rem; /* Equivalente a h-80 en Tailwind */
+  width: 16rem; /* Equivalente a w-64 en Tailwind */
+}
+
+/* -----------------> PORTFOLIO <----------------- */
+/* -----------------> EXPERIENCIA <----------------- */
+/* -----------------> HABILIDADES <----------------- */
+/* -----------------> ESTUDIOS <----------------- */
+
+/* -----------------> FOOTER <----------------- */
+footer {
+  background-color: #2d3748;
+  color: #ffffff;
+}
+
+/* -----------------> MOBILE <----------------- */
+@media (min-width: 640px) {
+  /* -----------------> HEADER <----------------- */
+  header .mobile-icon-container {
+    display: none;
+  }
+
+  header .mobile-links-menu {
+    display: none; /* Ocultar en pantallas más grandes que 640px */
+  }
+
+  header .desktop-links {
+    display: flex; /* Mostrar en pantallas más grandes que 640px */
+  }
+}
+
+/* -----------------> DESKTOP <----------------- */
+@media (min-width: 48rem) {
+  .main-container {
+    width: 66.66667%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  /* -----------------> HEADER <----------------- */
+  .desktop-links ul {
+    display: flex;
+    gap: 0.75rem; /* Espaciado horizontal entre los elementos */
+    font-weight: 500; /* Equivalente a font-medium en Tailwind */
+  }
+  .desktop-links ul a {
+    color: #cbd5e0; /* Equivalente a text-gray-200 en Tailwind */
+    text-decoration: none;
+  }
+  .desktop-links ul a:hover {
+    color: #ffffff;
+  }
+
+  /* -----------------> MAIN <----------------- */
+  main .main-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem; /* Equivalente a md:gap-x-24 en Tailwind */
+  }
+}
