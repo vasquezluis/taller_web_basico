@@ -36,19 +36,73 @@ main {
   padding: 10px;
   border-radius: 15px;
   gap: 10px 0;
-  background: #BBBBBF;
+  background: #bbbbbf;
 }
 main section {
   text-align: center;
   padding: 10px;
   border-radius: 15px;
-  background: #A3A9AA;
+  background: #a3a9aa;
 }
 
 footer {
-  background: #A3A9AA;
+  background: #a3a9aa;
   width: 100%;
   text-align: center;
   color: white;
   border-radius: 15px;
+}
+
+.divVerde {
+  background: green;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.divSkyblue {
+  background: skyblue;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.toggle_div_class {
+  background: pink;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.div_fondo_rosa {
+  background: pink;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.div_fondo_naranja {
+  background: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.div_fondo_azul {
+  background: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
 }

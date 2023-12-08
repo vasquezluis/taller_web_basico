@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manipulando el DOM</title>
+    <title>Manipulando el DOM 2</title>
+    <link rel="icon" href="./public/icon.svg" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <p>
+    <header id="header">
+      <p id="parrafo1" class="parrafo">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod molestias
         ipsa reprehenderit, non ab voluptates vel eaque natus iste id possimus
         accusamus dolores soluta exercitationem tempore distinctio totam
@@ -17,13 +18,17 @@
     </header>
 
     <nav>
-      <ul></ul>
+      <ul id="links">
+        <li class="list_item">Link1</li>
+        <li class="list_item">Link2</li>
+        <li class="list_item">Link3</li>
+      </ul>
     </nav>
 
     <main>
       <section>
         <h1>Hola manipulacion del DOM</h1>
-        <p>
+        <p class="parrafo">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas,
           numquam amet, adipisci velit laboriosam perferendis aspernatur
           tempora, beatae quis expedita omnis ipsa? Unde recusandae temporibus,
@@ -36,14 +41,45 @@
 
       <section>
         <img
-          style="width: 100%; aspect-ratio: 2560/1080"
-          src="./public/images/image.jpg"
+          id="imagen1"
+          style="width: 100%; aspect-ratio: 2560/1080;"
           alt="neon image"
+          title="neon image"
+          src="./public/images/image.jpg"
         />
       </section>
     </main>
 
-    <aside></aside>
+    <div id="seccion_nueva" class="divSkyblue">
+      <h2>hola section</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+        illo fugiat quae cumque tempora deserunt exercitationem non deleniti
+        recusandae atque excepturi dolorum debitis, magnam reprehenderit sunt
+        asperiores itaque. Animi, eos!
+      </p>
+    </div>
+
+    <div id="toggle_div" class="toggle_div_class">
+      <h2>Hola div</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam illum a
+        numquam, deleniti quibusdam quis excepturi harum hic, quam eaque ut,
+        fugit quos minus quod optio. Molestiae deleniti sequi accusamus.
+      </p>
+    </div>
+
+    <div id="eventos_js" class="div_fondo_rosa">
+      <h2>hola div manipulado con JS -> Evento click</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+        illo fugiat quae cumque tempora deserunt exercitationem non deleniti
+        recusandae atque excepturi dolorum debitis, magnam reprehenderit sunt
+        asperiores itaque. Animi, eos!
+      </p>
+    </div>
+
+    <aside id="asideUnico" class="asideSkyblue">hola aside</aside>
 
     <footer>
       <h2>vasquezluis &copy;</h2>
@@ -51,4 +87,9 @@
   </body>
 </html>
 
-<script type="text/javascript" src="./index.js"></script>
+<!-- <script type="text/javascript" src="./01_accediento_al_document.js"></script> -->
+<!-- <script type="text/javascript" src="./02_seleccion_elementos.js"></script> -->
+<!-- <script type="text/javascript" src="./03_manipulacion_elementos.js"></script> -->
+<!-- <script type="text/javascript" src="./04_creacion_eliminacion.js"></script> -->
+<!-- <script type="text/javascript" src="./05_estilos.js"></script> -->
+<script type="text/javascript" src="./06_eventos.js"></script>
