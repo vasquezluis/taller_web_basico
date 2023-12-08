@@ -8,19 +8,14 @@
  *
  */
 
-// añadir elementos al final de un elemento
 const miListaDesordernada = document.getElementById("links");
 const nuevoLi = document.createElement("li");
 nuevoLi.textContent = "Link creado con JS";
 miListaDesordernada.appendChild(nuevoLi);
 
-// Crear un nuevo elemento <div>
 const nuevoDiv = document.createElement("div");
-// Añadir texto al nuevo elemento
 nuevoDiv.textContent = "¡Hola, soy un nuevo div!";
-// Añadir el nuevo elemento al final del cuerpo del documento
 document.body.appendChild(nuevoDiv);
 
-// Eliminar un elemento existente por su ID
 const elementoAEliminar = document.getElementById("header");
 elementoAEliminar.parentNode.removeChild(elementoAEliminar);
