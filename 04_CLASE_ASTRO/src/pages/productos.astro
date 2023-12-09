@@ -1,0 +1,40 @@
+---
+// Forma de importar componentes
+import Layout from "../layouts/Layout.astro";
+
+import Producto from "../components/Producto.astro";
+
+import Wallpaper1 from "../assets/images/wallpaper.jpg";
+import Wallpaper2 from "../assets/images/wallpaper2.jpg";
+import Wallpaper3 from "../assets/images/wallpaper3.jpg";
+---
+
+<!-- En el layout a traves de Props pusimos que tienen que enviar un titulo --><!-- Le pasamos el titulo como cualquier atributo HTML -->
+<Layout title="productos">
+  <h1 class="text-green-800 text-3xl font-bold text-center">
+    Productos nuevos
+  </h1>
+
+  <p class="text-blue-800 text-2xl text-center">
+    Estos son los productos más nuevos en nuestras tiendas
+  </p>
+
+  <!-- usar el componente que se acaba de crear para producto individual -->
+  <section class="flex flex-col gap-y-2 justify-center items-center mt-3">
+    <Producto
+      imagenSrc={Wallpaper1}
+      titulo="Licuadora"
+      descripcion="Esta es una licuadora..."
+    />
+    <Producto
+      imagenSrc={Wallpaper2}
+      titulo="Refrigeradora"
+      descripcion="Esta es una Refrigeradora..."
+    />
+    <Producto
+      imagenSrc={Wallpaper3}
+      titulo="Estufa"
+      descripcion="Esta es una estufa..."
+    />
+  </section>
+</Layout>

@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+// javascript dentro de astro files
+
+console.log("Este es el acerca de");
+
+for (let i = 0; i < 10; i++) {
+  console.log("numero: ", i + 1);
+}
+---
+
+<!-- Usar componente layout como etiqueta HTML --><!-- Los hijos que recibe se convierten en el <slot /> --><!-- El layout recibe una prop title -->
+<Layout title="Acerca de">
+  <h1>Acerca de</h1>
+
+  <main>
+    <h2>
+      Somos una empresa dedicada a la tecnología en Startups y queremos
+      aumentar...
+    </h2>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis deserunt
+      error explicabo qui placeat quisquam maiores molestiae. Voluptate
+      inventore quibusdam eligendi, deserunt cupiditate, labore dolor dolorem
+      voluptas voluptatum, nesciunt fuga.
+    </p>
+  </main>
+</Layout>

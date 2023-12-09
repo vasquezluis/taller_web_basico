@@ -1,0 +1,70 @@
+---
+// asi podemos importar o usar JS en un archivo astro 
+
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+// las Props son como los argumentos en funciones
+// en este layout siempre vamos a esperar un titlo para la pagina
+interface Props {
+	title: string;
+}
+
+// obtenemos el titulo
+const { title } = Astro.props;
+---
+
+<!-- Este es un formato html comun y corriente pero vacio -->
+<!-- el contenido lo vamos a gregar en las paginas donde usemos el Layout -->
+<!-- el contenido se coloca donde esta el slot -->
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="bg-neutral-900">
+		<!-- colocar un componente en el layout para que aparezcan en todas las paginas -->
+		<Header />
+
+		<!-- slot es un hijo -> children que es el contenido de cada pagina -->
+		<slot />
+
+		<!-- colocar el componente pie de pagina -->
+		<Footer />
+	</body>
+</html>
+
+<!-- Asi añadimos estilos css a una pagina -->
+<!-- los estilos son propios de una pagina a menos que usemos is:global para que se apliquen a todas las paginas -->
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+</style>

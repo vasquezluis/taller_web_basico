@@ -1,0 +1,17 @@
+---
+// importamos el layout para usarlo en esta pagina
+import Layout from "../layouts/Layout.astro";
+---
+
+<!-- Esta pagina sirve para usarse cuando no existe la pagina que el ususario está buscando -->
+<Layout title="404 Not Found">
+  <div class="flex flex-col justify-center items-center">
+    <h1 class="text-white text-3xl text-center mb-2">
+      Esta página no existe...
+    </h1>
+    <img
+      src="https://midu.dev/images/this-is-fine-404.gif"
+      alt="not found gif"
+    />
+  </div>
+</Layout>

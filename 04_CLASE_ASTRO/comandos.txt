@@ -1,0 +1,22 @@
+# crear un proyecto de astro
+  npm create astro@latest
+
+## opciones
+  - name -> ./
+  - include sample files
+  - install dependencies -> yes
+  - typescript -> yes -> strict (recommended)
+  - git repository (optional)
+  - npm i (si falla la instalacion de dependencias)
+
+# js/ts in .astro
+  al principio del archivo
+  ---
+  ---
+
+# añadir tailwind
+  npx astro add --help
+  npx astro add tailwind
+
+# añadir react
+  npx astro add react
