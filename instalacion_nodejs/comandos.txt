@@ -1,0 +1,10 @@
+## verificar instalacion de nodejs
+  node --version
+  npm --version
+
+## ejecutar un archivo de JavaScript con NodeJs
+  crea un archivo .js
+  agregar contenido al archivo .js
+  abrir una terminal de windows y navegar hasta la ubicación del archivo.js
+  ejecutar el archivo.js con NodeJs
+    node archivo.js
