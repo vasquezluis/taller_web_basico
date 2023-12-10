@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Main from "../components/Main.astro";
+import Portafolio from "../components/Portafolio.astro";
+import Experiencia from "../components/Experiencia.astro";
+import Habilidades from "../components/Habilidades.astro";
+import Estudios from "../components/Estudios.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout title="vasquezluis portafolio">
+  <div class="w-full md:w-4/6 md:mx-auto md:px-36">
+    <!-- header -->
+    <Header />
+
+    <!-- main -->
+    <Main />
+
+    <!-- portafolio -->
+    <Portafolio />
+
+    <!-- experiencia timeline -->
+    <Experiencia />
+
+    <!-- habilidades -->
+    <Habilidades />
+
+    <!-- estudios previos -->
+    <Estudios />
+
+    <!-- Footer -->
+    <Footer />
+  </div>
+</Layout>
