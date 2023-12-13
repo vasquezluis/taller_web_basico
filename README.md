@@ -91,23 +91,22 @@ Este taller es posible gracias a la colaboración entre **[Cosami](https://cosam
 
 ### Clase 8
 
-- **Refinamiento del Proyecto (1.5 hrs):**
-  - Revisión general y refinamiento del proyecto web.
-  - Incorporación de estilos y mejoras.
-
-### Clase 9
-
 - **Introducción a Astro Framework (1.5 hrs):**
   - ¿Qué es Astro Framework?
   - Principales características y ventajas.
   - Configuración básica y creación de una aplicación simple.
   - Práctica: Inicio de la migración del proyecto a Astro.
 
+### Clase 9
+
+- **Migración de portafolio a Astro Framework (1.5 hrs):**
+  - Demostración de la migración de un proyecto HTML y CSS a Astro Framework
+  - Demostración del uso del Framework Reactjs dentro de Astro Framework
+  - Práctica: Inicio de la migración del proyecto a Astro.
+
 ### Clase 10
 
-- **Estilo y Mejoras con Astro (1.5 hrs):**
-  - Uso de estilos y componentes en Astro.
-  - Integración de características adicionales.
+- **Presentación de proyectos de los estudiantes (1.5 hrs):**
   - Presentación de Proyectos Finales.
   - Reflexiones finales y cierre del taller.
 
